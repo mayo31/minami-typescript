@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "outDir": "./public/js",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "module": "commonjs",
+        "target": "es5",
+        "jsx": "react"
+    },
+    "files": [
+        "./typings/tsd.d.ts",
+        "./src/common.ts",
+        "./src/Index.tsx",
+        "./src/Account.tsx",
+        "./src/ArticleArea.tsx",
+        "./src/Comment.tsx",
+        "./src/Login.tsx",
+        "./src/Signup.tsx",
+        "./src/SiteFooter.tsx",
+        "./src/SiteHeader.tsx",
+        "./src/Tag.tsx",
+        "./src/URLForm.tsx"
+    ]
+}
